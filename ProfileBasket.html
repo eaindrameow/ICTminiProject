@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Profile</title>
+	<link rel="icon" type="image/x-icon" href="Images/Logo1.png">
+	<style>
+		body{
+			background-color:#d3f5e7;
+		}
+		#BgRight{
+			 background-color: #a7dbd0;
+			  position: fixed;
+              top: 0;
+              bottom: 0;
+              left: 50%;
+              right: 0;
+		}
+
+		div{
+			float: left;
+		}
+		  input:focus {
+        box-shadow: none;
+        outline: none;
+  }
+          #myImg:hover {opacity: 0.8;}
+        #Home:hover {opacity: 0.8;}
+        #Shopping:hover {opacity: 0.8;}
+        #Order:hover {opacity: 0.8;}
+        #AboutUs:hover {opacity: 0.8;}
+
+</style>
+</head>
+<body>
+	<img src="Images/Profile.png" alt="pfp" style="width: 13%;">
+	<label for="file">Profile Picture</label>
+        <input type="file" id="file" name="file">
+        <br><br>
+	<form action="/"><br> &emsp;  
+		<label for="FName"> Name</label>
+        &emsp; &nbsp; &nbsp;&nbsp;<input type="text" id="1" name="1Name">
+		<br><br>&emsp; 
+		<label for="LName"> User Name </label>
+		<input type="text" id="2" name="2Name">
+		<br><br>&emsp;
+		 <label for="Ps">Password </label> 
+          &nbsp;  <input type="password" id="ps" name="ps">
+        <br><br>
+		&emsp;<label for="Contact"> Contact  </label>
+         &emsp;&nbsp;<input type="text" id="Contact" name="Contact" >
+         <br><br>&emsp;
+
+         <label for="Mail">Mail</label>
+        &emsp; &emsp; <input type="email" id="email" name="email">
+        <br><br>&emsp;
+       
+   
+
+	   </form>
+	   <div id="BgRight"><div><a href="GlowHomePage.html"><img src="Images/Home.png" alt="img" style="width: 139px;" id="Home"></a></div>
+	   <div><a href="Shopping.html"><img src="Images/Shopping.png" alt="img" style="width:187px;" id="Shopping"></a></div>
+       <div><a href="Order.html"><img src="Images/Order.png" alt="img" style="width: 123px;" id="Order"></a></div>
+       <div><a href="AboutUs.html"><img src="Images/About Us.png" alt="img" style="width: 185px;" id="AboutUs"></a>
+        <br><br> <br></div>
+      
+       &emsp; &nbsp; &nbsp;<img src="Images/Features.png" alt="image" style="width: 90%;">
+       </div>
+
+
+</body>
+</html>
